@@ -163,7 +163,7 @@ ul li {
     margin-left: 5px!important;
 }
 .modal-footer button:nth-child(even) {
-    width: calc(50% - 5px)
+    width: calc(50% - 30px)
 }
 .modal-body .alert {
     margin: 0;
