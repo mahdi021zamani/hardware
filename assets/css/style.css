@@ -157,7 +157,7 @@ ul li {
     float: right;
     width: 50%;
     margin-right: 0!important;
-    margin-bottom: 5px!important;
+    margin-bottom: 30px!important;
 }
 .modal-footer button:nth-child(odd) {
     margin-left: 5px!important;
