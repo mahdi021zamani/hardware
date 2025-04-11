@@ -157,13 +157,13 @@ ul li {
     float: right;
     width: 50%;
     margin-right: 0!important;
-    margin-bottom: 30px!important;
+    margin-bottom: 5px!important;
 }
 .modal-footer button:nth-child(odd) {
     margin-left: 5px!important;
 }
 .modal-footer button:nth-child(even) {
-    width: calc(50% - 30px)
+    width: calc(50% - 5px)
 }
 .modal-body .alert {
     margin: 0;
@@ -174,7 +174,7 @@ ul li {
 }
 
 .modalBodyOverflow {
-	max-height: 63vh;
+	max-height: 30vh;
 	overflow: hidden;
 	overflow-y: auto;
 }
