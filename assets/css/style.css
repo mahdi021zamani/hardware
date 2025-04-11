@@ -174,7 +174,7 @@ ul li {
 }
 
 .modalBodyOverflow {
-	max-height: 30vh;
+	max-height: 63vh;
 	overflow: hidden;
 	overflow-y: auto;
 }
@@ -241,7 +241,7 @@ img[alt="loader"] {
 	width: calc(100% - 170px);
 }
 .fullBox .leftSide textarea {
-	height: 160px;
+	height: 100px;
 	margin: 0;
 }
 .fullBox .leftSide textarea[readonly] {
