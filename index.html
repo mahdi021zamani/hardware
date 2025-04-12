@@ -1,68 +1,122 @@
+export default {
+  async fetch(request) {
+    const html = `
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/assets/css/bootstrap-rtl.min.css" rel="stylesheet" />
-    <link href="/assets/css/vazir.css" rel="stylesheet" />
-    <link href="/assets/css/style.css?v1.5" rel="stylesheet" />
-    <title>MAHDI | کانفیگ رایگان</title>
-    <meta name="description" content="آی پی سالم و تمیز برای کلودفلر (کلادفلر) جهت دسترسی به اینترنت آزاد" />
-    <meta name="keywords" content="کلودفلر, کلادفلر, cloudflare, cf, آی پی تمیز, آی پی سالم, اسکن آی پی" />
-    <meta name="robots" content="index,follow,noodp" />
-    <meta name="googlebot" content="index,follow" />
-    <meta name="theme-color" content="#ff7900" />
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico?v1.1" />
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/assets/css/bootstrap-rtl.min.css" rel="stylesheet" />
+  <link href="/assets/css/vazir.css" rel="stylesheet" />
+  <link href="/assets/css/style.css?v1.5" rel="stylesheet" />
+  <title>MAHDI | کانفیگ رایگان</title>
+  <meta name="description" content="آی پی سالم و تمیز برای کلودفلر (کلادفلر) جهت دسترسی به اینترنت آزاد" />
+  <meta name="keywords" content="کلودفلر, کلادفلر, cloudflare, cf, آی پی تمیز, آی پی سالم, اسکن آی پی" />
+  <meta name="robots" content="index,follow,noodp" />
+  <meta name="googlebot" content="index,follow" />
+  <meta name="theme-color" content="#ff7900" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico?v1.1" />
 </head>
 <body>
 <nav class="navbar navbar-inverse">
-    <div class="container">
-        <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 col-centered">
-            <a href=".">
-                <img src="./assets/img/cflogo.png?v1.1" alt="logo" />
-                <h1>مهدی♡زمانی</h1>
-            </a>
-        </div>
+  <div class="container">
+    <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 col-centered">
+      <a href=".">
+        <img src="./assets/img/cflogo.png?v1.1" alt="logo" />
+        <h1>مهدی♡زمانی</h1>
+      </a>
     </div>
+  </div>
 </nav>
 
 <div class="clearfix"></div>
 <div class="container">
-    <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 col-centered">
-        <ul class="nav nav-tabs">
-            <li><a href="mahdi021zamani@gmail.com">معرفی</a></li>
-            <li class="active"><a href="./index.html">کانفیگ رایگان</a></li>
-            <li class="pull-left"><a href="mahdi021zamani@gmail.com">تماس‌باما</a></li>
-        </ul>
-        <div class="clearfix"></div>
+  <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 col-centered">
+    <ul class="nav nav-tabs">
+      <li><a href="mahdi021zamani@gmail.com">معرفی</a></li>
+      <li class="active"><a href="./index.html">کانفیگ رایگان</a></li>
+      <li class="pull-left"><a href="mahdi021zamani@gmail.com">تماس‌باما</a></li>
+    </ul>
+    <div class="clearfix"></div>
 
-        <div class="alert alert-info" id="defAlert">
-            <p>توسط این‌ابزار می‌تونین به کانفیگ‌های رایگان گردآوری‌شده دسترسی داشته باشین. این‌کانفیگ‌ها به‌صورت خودکار و منظم، بدون دخل‌وتصرف از یه‌سری <a href="mahdi021zamani@gmail.com" target="_blank">کانال تلگرامی</a> جمع‌آوری میشن و برای رعایت مسائل امنیتی توصیه میشه تنها برای مصارف عادی ازشون استفاده کنین.</p>
-        </div>
-
-        <ul class="nav nav-pills">
-            <li class="active"><a href="https://tconfig.pages.dev/">پروتکل‌ها</a></li>
-            <li><a href="https://location-58t.pages.dev/">لوکیشن‌ها</a></li>
-
-                    <li class="active"><a href="https://portal-subpishnahadi.pages.dev/">warpساخت</a></li>
-                    <li class="active"><a href="https://software-hardware-git.pages.dev/">نرم افزار ها</a></li>  
-                 </ul>
-
-        <div class="clearfix" style="margin-top: 2rem;"></div>
-
-        <!-- این بخش iframe صفحه نرم‌افزارهای اندروید رو نشون میده -->
-        <iframe src="https://software.mahdi021zamani.workers.dev/"
-                width="100%"
-                height="1600"
-                style="border:none; border-radius: 12px;"
-                loading="lazy">
-        </iframe>
-        <!-- پایان iframe -->
+    <div class="alert alert-info" id="defAlert">
+      <p>توسط این‌ابزار می‌تونین به کانفیگ‌های رایگان گردآوری‌شده دسترسی داشته باشین. این‌کانفیگ‌ها به‌صورت خودکار و منظم، بدون دخل‌وتصرف از یه‌سری <a href="mahdi021zamani@gmail.com" target="_blank">کانال تلگرامی</a> جمع‌آوری میشن و برای رعایت مسائل امنیتی توصیه میشه تنها برای مصارف عادی ازشون استفاده کنین.</p>
     </div>
+
+    <ul class="nav nav-pills">
+      <li class="active"><a href="https://tconfig.pages.dev/">پروتکل‌ها</a></li>
+      <li><a href="https://location-58t.pages.dev/">لوکیشن‌ها</a></li>
+    </ul>
+
+    <hr />
+
+    <h3 style="margin-top:2rem;">نرم‌افزارهای اندروید پیشنهادی</h3>
+    <ul style="list-style: none; padding: 0;">
+      ${generateAppList()}
+    </ul>
+
+    <footer style="text-align:center; margin-top:3rem; font-size:0.9rem; color:#555;">
+      توسط: mahdizamani
+      <div style="margin-top: 1rem;">
+        <span>ارتباط با من از طریق تلگرام:</span><br/>
+        <a href="https://t.me/mahdione71" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="30" alt="Telegram" />
+        </a>
+        <div>
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://t.me/mahdione71" width="120" alt="QR Code" />
+        </div>
+      </div>
+    </footer>
+
+  </div>
 </div>
 </body>
 </html>
+    `;
+    return new Response(html, {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+      },
+    });
+  },
+};
+
+function generateAppList() {
+  const playIcon = "https://cdn-icons-png.flaticon.com/512/300/300218.png";
+  const githubIcon = "https://cdn-icons-png.flaticon.com/512/25/25231.png";
+
+  const apps = [
+    { name: "V2rayNG", playstore: "https://play.google.com/store/apps/details?id=com.v2ray.ang", github: "https://github.com/2dust/v2rayNG/releases" },
+    { name: "MahsaNG", playstore: "https://play.google.com/store/apps/details?id=com.MahsaNet.MahsaNG", github: "https://github.com/GFW-knocker/mahsang/releases/latest" },
+    { name: "Hiddify", playstore: "https://play.google.com/store/apps/details?id=app.hiddify.com", github: "https://github.com/hiddify/hiddify-next/releases/latest" },
+    { name: "Oblivion", playstore: "https://play.google.com/store/apps/details?id=org.bepass.oblivion", github: "https://github.com/bepass-org/oblivion/releases/latest" },
+    { name: "Matsuri", playstore: "https://play.google.com/store/apps/details?id=moe.matsuri.lite", github: "https://github.com/MatsuriDayo/Matsuri/releases" },
+    { name: "NekoBox", playstore: "https://play.google.com/store/apps/details?id=moe.nb4a", github: "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases" },
+    { name: "Begzar", github: "https://github.com/Begzar/BegzarApp/releases/latest" },
+    { name: "Purlite", github: "https://github.com/davudsedft/purlite/releases/latest" },
+    { name: "NapsternetV", playstore: "https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv" },
+    { name: "v2flyNG", playstore: "https://play.google.com/store/apps/details?id=com.v2ray.v2fly", github: "https://github.com/2dust/v2flyNG/releases" },
+    { name: "ARMod", playstore: "https://play.google.com/store/apps/details?id=com.artunnel57" },
+  ];
+
+  return apps.map(app => {
+    const githubLink = app.github
+      ? `<a href="${app.github}" target="_blank" class="btn btn-link"><img src="${githubIcon}" width="20"/> GitHub</a>`
+      : `<span class="btn btn-link disabled"><img src="${githubIcon}" width="20"/> GitHub</span>`;
+
+    const playstoreLink = app.playstore
+      ? `<a href="${app.playstore}" target="_blank" class="btn btn-link"><img src="${playIcon}" width="20"/> Play Store</a>`
+      : `<span class="btn btn-link disabled"><img src="${playIcon}" width="20"/> Play Store</span>`;
+
+    return `
+      <li class="well" style="margin-bottom: 1rem;">
+        <strong>${app.name}</strong><br/>
+        ${githubLink}
+        ${playstoreLink}
+      </li>`;
+  }).join("");
+}
